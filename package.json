@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "start": "ts-node-dev --inspect --transpile-only --respawn ./businessRules.ts",
+    "build": "tsc"
+  },
   "devDependencies": {
-    "@types/node": "^18.15.7"
+    "@types/node": "^18.15.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.2"
   }
 }

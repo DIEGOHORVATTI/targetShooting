@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "ts-node-dev --inspect --transpile-only --respawn ./businessRules.ts",
+    "start": "ts-node-dev --inspect --transpile-only --respawn ./main.ts",
     "build": "tsc"
   },
   "devDependencies": {

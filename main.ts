@@ -5,8 +5,8 @@ import { terminal } from './terminal';
 import { alvo } from './config';
 
 /*
-  Sempre pensa no eixo X como sendo a distância e no eixo Y como sendo a altura.
-  O alvo está no ponto (0,0) e o tiro está no ponto (100, 100)
+  Sempre pense no eixo X como sendo a distância e no eixo Y como sendo a altura.
+  O alvo está no ponto (100, 100) e o tiro está no ponto (0, 0)
   Ele tem 25Metros
   
   [exemplo]

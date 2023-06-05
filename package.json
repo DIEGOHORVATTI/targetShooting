@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "ts-node-dev --inspect --transpile-only --respawn ./main.ts",
+    "start:FP": "ts-node-dev --inspect --transpile-only --respawn ./FP/main.ts",
+    "start:OOP": "ts-node-dev --inspect --transpile-only --respawn ./OOP/main.ts",
     "build": "tsc"
   },
   "devDependencies": {

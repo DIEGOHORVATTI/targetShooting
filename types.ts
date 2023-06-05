@@ -1,6 +1,6 @@
 type TrajectoryProps = {
-  x: number;
-  y: number;
-};
+  x: number
+  y: number
+}
 
-export default TrajectoryProps;
+export default TrajectoryProps

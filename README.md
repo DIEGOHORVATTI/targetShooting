@@ -1,6 +1,6 @@
 ## Rode a aplicação com
 
-<pre>yarn dev</pre>
+<pre>yarn start</pre>
 
 ## ou
 
@@ -10,12 +10,18 @@
 
 <pre>
 Introdução:
-O objetivo deste projeto é simular o lançamento de um projétil e calcular sua trajetória até atingir um alvo. Para isso, foram utilizadas fórmulas matemáticas para calcular a distância percorrida pelo projétil e verificar se ele colidiu com o alvo.
+O objetivo deste projeto é simular o lançamento de um projétil e calcular sua trajetória até atingir um alvo. 
+Para isso, foram utilizadas fórmulas matemáticas para calcular a distância percorrida pelo projétil e 
+verificar se ele colidiu com o alvo.
 
 Desenvolvimento:
-O projeto foi desenvolvido em JavaScript e consiste em duas funções principais: calculateTrajectory e verificarColisao.
+O projeto foi desenvolvido em JavaScript e consiste em duas funções principais: calculateTrajectory 
+e verificarColisao.
 
-A função calculateTrajectory é responsável por calcular a trajetória do projétil com base no ângulo e na velocidade escolhidos pelo usuário. Para isso, ela utiliza as fórmulas matemáticas para converter o ângulo de graus para radianos, calcular o seno e o cosseno do ângulo em radianos e, por fim, calcular a distância e a altura máxima da trajetória. As fórmulas utilizadas são:
+A função calculateTrajectory é responsável por calcular a trajetória do projétil com base no ângulo e na 
+velocidade escolhidos pelo usuário. Para isso, ela utiliza as fórmulas matemáticas para converter o ângulo 
+de graus para radianos, calcular o seno e o cosseno do ângulo em radianos e, por fim, calcular a distância e 
+a altura máxima da trajetória. As fórmulas utilizadas são:
 
 x = (2 * v^2 * sin(theta) * cos(theta)) / g
 y = (v^2 * sin^2(theta)) / (2 * g)
@@ -26,10 +32,13 @@ y é a altura máxima alcançada pelo projétil.
 v é a velocidade inicial do projétil.
 theta é o ângulo de lançamento do projétil.
 g é a aceleração da gravidade.
-Já a função verificarColisao é responsável por verificar se o projétil colidiu com o alvo. Para isso, ela calcula a distância entre o projétil e o alvo e verifica se essa distância é menor ou igual ao raio do alvo.
+Já a função verificarColisao é responsável por verificar se o projétil colidiu com o alvo. Para isso, 
+ela calcula a distância entre o projétil e o alvo e verifica se essa distância é menor ou igual ao raio do alvo.
 
 Conclusão:
-O projeto de simulação de lançamento de projétil foi desenvolvido com sucesso utilizando fórmulas matemáticas para calcular a trajetória do projétil e verificar se ele colidiu com o alvo. As funções implementadas são simples e eficientes, permitindo que o usuário escolha o ângulo e a velocidade do projétil e visualize sua trajetória até atingir o alvo.
+O projeto de simulação de lançamento de projétil foi desenvolvido com sucesso utilizando fórmulas matemáticas 
+para calcular a trajetória do projétil e verificar se ele colidiu com o alvo. As funções implementadas são simples 
+e eficientes, permitindo que o usuário escolha o ângulo e a velocidade do projétil e visualize sua trajetória até atingir o alvo.
 </pre>
 
 ## Descrição do forun sobre a lógica pensada antes de fazer o game em sala
@@ -38,7 +47,9 @@ O projeto de simulação de lançamento de projétil foi desenvolvido com sucess
 # Tiro ao alvo
 
 Descrição teórica:
-Esse jogo é composto por 3 objetos o alvo que é estático e o objeto principal que é um projétil que percorrer um ponto X onde está o jogador indo até o ponto Y com aceleração e velocidade média variável dependendo da velocidade e angulo de escolha do jogador a missão principal é acertar o alvo que também é o ultimo objeto que compõe o jogo.
+Esse jogo é composto por 3 objetos o alvo que é estático e o objeto principal que é um projétil que percorrer um 
+ponto X onde está o jogador indo até o ponto Y com aceleração e velocidade média variável dependendo da velocidade 
+e angulo de escolha do jogador a missão principal é acertar o alvo que também é o ultimo objeto que compõe o jogo.
 
 Descrição de Regras:
 
@@ -53,7 +64,8 @@ Descrição de lógica:
 3. O jogo calcula a trajetória do objeto principal com base na velocidade e ângulo escolhidos pelo jogador.
 4. O objeto principal se move em direção ao alvo, com aceleração variável de acordo com a trajetória.
 5. O jogo verifica se o objeto principal colidiu com o alvo e em qual nível do alvo ele acertou.
-6. Se o jogador acertar o alvo, a pontuação correspondente é adicionada ao total de pontos e o jogo exibe uma mensagem de acerto. Caso contrário, o jogo exibe uma mensagem de erro.
+6. Se o jogador acertar o alvo, a pontuação correspondente é adicionada ao total de pontos e o jogo exibe uma mensagem de acerto. 
+Caso contrário, o jogo exibe uma mensagem de erro.
 7. O jogador tem direito a 5 tiros para acertar o alvo.
 8. O jogo continua até que o jogador acerte o alvo 10 vezes ou utilize todos os 5 tiros sem acertar o alvo.
 9. Ao final do jogo, o total de pontos é exibido e o jogo reinicia a partir do passo 1.
